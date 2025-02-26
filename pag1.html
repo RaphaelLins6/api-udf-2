@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pág1</title>
+    <style>
+        .caixa {
+            width: 200px;
+            height: 100px;
+            border: 5px solid black;
+            padding: 10px;
+        }
+        table {
+            border: 5px solid rgb(3, 3, 3); /* Borda externa preta */
+            border-collapse: collapse;
+            width: 100%;
+            padding: 10px;
+        }
+        th, td {
+            border-style: double;
+            border-width: 5px; /* Ajuste a espessura conforme necessário */
+            border-color: black;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .container-botoes {
+            display: flex; /* Alinha os botões horizontalmente */
+            justify-content: left; /* Alinha os botões à esquerda */
+        }
+
+        .container-botoes button {
+            margin-right: 10px; /* Adiciona espaço entre os botões */
+            padding: 10px 20px; /* Ajusta o tamanho dos botões */
+        }
+        .container-botoes-2 {
+            display: flex;
+            flex-direction: column; /* Alinha os botões verticalmente */
+            align-items: flex-start; /* Alinha os botões à esquerda */
+        }
+
+        .container-botoes-2 button {
+            margin-bottom: 10px; /* Adiciona espaço entre os botões */
+            padding: 10px 20px; /* Ajusta o tamanho dos botões */
+        }
+        .centralizado {
+            text-align: center;
+            vertical-align: middle;
+        }
+        .rodape {
+            font-size: 11px;
+            text-align: top;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Usuários do sistema</h1>
+
+
+
+    <table class="caixa">
+        <caption>Lista de usuários</caption>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Usuário</th>
+                <th>Perfil</th>
+                <th>Avatar</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Admin</td>
+                <td><b>Administrador</b></td>
+                <td><img src="./AvVenom.gif" width="100" height="100"></td>
+                <td class="container-botoes-2">
+                    <button>Detalhar</button>
+                    <button>Alterar Senha</button>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>User</td>
+                <td><i>Usuário</i></td>
+                <td><img src="./AvUrso.gif" width="100" height="100"></td>
+                <td class="container-botoes">
+                    <button>Alterar</button>
+                    <button>Promover</button>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Guest</td>
+                <td><del>Convidado</del></td>
+                <td><img src="./AvGato.gif" width="100" height="100"></td>
+                <td rowspan="2"class="centralizado"><img src="./trash-can-solid.svg" alt="SVG" width="100" height="100"></td>
+            <tr>
+                <td>4</td>
+                <td>Other_guest</td>
+                <td><del>Convidado</del></td>
+                <td><img src="./AvBob.gif" width="100" height="100"></td>
+            </tr>
+            <tr>
+                <td colspan="5" style="text-align: left;">Simplesmente uma linha Mesclada</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+<footer>
+    <p class="rodape">Os maiores usuários da interdimensional cable tv</p>
+</footer>
+</html>
