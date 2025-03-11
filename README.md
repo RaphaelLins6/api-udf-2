@@ -79,6 +79,10 @@ Este repositório contém o código HTML para duas páginas web: uma página pri
 * Flexbox para layout de botões.
 * Estilização de tabelas com bordas e cores de fundo.
 
+## Links Adicionais
+
+* [API UDF 2](https://raphaellins6.github.io/api-udf-2/) - Link para a API UDF 2.
+
 ## Autores
 
 -   [@RaphaelLins6](https://www.github.com/RaphaelLins6) - Raphael Lins (RGM:27797660)
