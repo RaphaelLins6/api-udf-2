@@ -114,9 +114,9 @@ Este repositório contém o código HTML para duas páginas web: uma página pri
 ## 🚀 Como Utilizar o Repositório
 
 1. 📥 Faça o clone do repositório usando o comando:
-   ```bash
-   git clone https://github.com/RaphaelLins6/api-udf-2.git
-   ```
+```bash
+git clone https://github.com/RaphaelLins6/api-udf-2.git
+```
 2. 📂 Navegue até a pasta do projeto:
 
 ```bash
